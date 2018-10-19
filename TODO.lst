@@ -1,0 +1,18 @@
+"""
+Master list of TODOs
+"""
+
+# WIP: document all relevant methods and classes
+
+# TODO: develop a GUI
+# TODO: develop a multi-player server
+# TODO: develop a MCTS/UCB algorithm for smart play
+
+# DONE (sort of: embed an event observer framework into the game (for logging)
+# DONE modify the engine/player protocol to multiple rounds of communication (e.g. draw_discard)
+# DONE develop an event observer that does more than just printing event data (printing should be an option, though)
+# DONE refactor game engine and game transitions iterator for leaner code and weaker coupling
+# DONE: add game events for card showdown
+# DONE: develop a user agent for human play (console)
+# DONE: gather statistics for random play and aggressive betting (see agents/FINDINGS.txt)
+# DONE: develop a heuristic-guided player agent using gathered stats

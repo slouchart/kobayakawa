@@ -1,0 +1,19 @@
+The 'aggressive better' is far more efficient at winning than the pure random agent
+explanation : it never misses a good opportunity to bet even if it means losing some money
+on the other hand, pure random agents make bad choices half of the time whereas the greedy agent
+might make a rather good move.
+
+The heuristic-guided agent (so-called smart agent) is also more prone to winning, more often and for
+higher margins than pure random agents. Compared to one random agent and one greedy agent (trial #4), it
+seems the heuristic-guided agent outperforms both other agents. The trial #5 shows the smart agent
+outperforms two greedy opposing agents in the same proportion, doubling the number of game won and getting
+an average gain twice the average gain of the greedy agents.
+
+trials:
+trial #1 four random agents (control)
+trial #2 three random agents, one greedy agent
+trial #3 three random agents, one smart agent
+trial #4 one smart agent, one greedy agent and one random
+trial #5 one smart agent, three greedy
+
+
